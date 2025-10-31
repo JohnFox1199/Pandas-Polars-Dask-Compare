@@ -1,0 +1,20 @@
+{
+  "input": "data_sme_1530.csv",
+  "runs": 1,
+  "separator": ";",
+  "libs": {
+    "pandas": {
+      "read_time_s": 7.393387799995253,
+      "write_time_s": 4.898943300009705,
+      "read_mem_mb": 849.77734375,
+      "write_mem_mb": 1568.326171875,
+      "runs_used": 1
+    },
+    "polars": {
+      "error": "all runs failed"
+    },
+    "dask": {
+      "error": "all runs failed"
+    }
+  }
+}
