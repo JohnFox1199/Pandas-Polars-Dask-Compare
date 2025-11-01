@@ -1,20 +1,28 @@
 {
-  "input": "data_sme_1530.csv",
-  "runs": 1,
-  "separator": ";",
+  "input": "StudentsPerformance.csv",
+  "runs": 1000,
+  "separator": ",",
   "libs": {
     "pandas": {
-      "read_time_s": 7.393387799995253,
-      "write_time_s": 4.898943300009705,
-      "read_mem_mb": 849.77734375,
-      "write_mem_mb": 1568.326171875,
-      "runs_used": 1
+      "read_time_s": 0.0029512371009914203,
+      "write_time_s": 0.002214831900317222,
+      "read_mem_mb": 132.899826171875,
+      "write_mem_mb": 132.900720703125,
+      "runs_used": 1000
     },
     "polars": {
-      "error": "all runs failed"
+      "read_time_s": 0.0004991239994997158,
+      "write_time_s": 0.002026623999408912,
+      "read_mem_mb": 140.86500390625,
+      "write_mem_mb": 140.8691953125,
+      "runs_used": 1000
     },
     "dask": {
-      "error": "all runs failed"
+      "read_time_s": 0.008797633500013035,
+      "write_time_s": 0.0024634127988829276,
+      "read_mem_mb": 143.0549609375,
+      "write_mem_mb": 142.91041796875,
+      "runs_used": 1000
     }
   }
 }

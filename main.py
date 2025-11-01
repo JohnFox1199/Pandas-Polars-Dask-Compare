@@ -17,11 +17,11 @@ import dask.dataframe as dd
 import psutil
 
 def main():
-    input_path = "data_sme_1530.csv"  # Имя файла-датасета StudentsPerformance.csv data_sme.csv data_sme_1530.csv
+    input_path = "StudentsPerformance.csv"  # Имя файла-датасета StudentsPerformance.csv data_sme.csv
     outdir = "./bench_results"              # Имя выходного файла
     encoding = "utf-8"                      # Кодировка
-    runs = 1                                # Количество тестов
-    sep = ";"                               # Разделитель
+    runs = 1000                                # Количество тестов
+    sep = ","                               # Разделитель
     
     # Создаем папку, если нет
     os.makedirs(outdir, exist_ok=True)
